@@ -8,3 +8,12 @@ rademacher_complexity.py
 - implements function to find rademacher complexity of a set and rademacher complexity of a function class
 - Ref: https://en.wikipedia.org/wiki/Rademacher_complexity
 
+online_learning.py
+- implements algorithms to predict with expert advice for the on-line learning scenario
+  - Halving algorithm
+  - Weighted majority algorithm
+  - Exponential weighted average algorithm
+- also implements a simple single thread on-line scenario simulation class that synchronizes generators - takes in generators for input and labels and ensures that labels can be consumed only after a corresponding input has been consumed.
+- Ref: https://cs.nyu.edu/~mohri/mlbook/ [second edition, Section 8.2 (On-Line Learning > Prediction with expert advice)]
+
+
