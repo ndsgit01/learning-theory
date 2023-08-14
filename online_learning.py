@@ -142,7 +142,7 @@ def wm_algorithm(online_data, experts, beta=0.75):
 
 def ewm_algorithm(online_data, experts, loss, eta=1):
     """
-    The exponential weighted majority algorithm - convex loss
+    The exponential weighted average algorithm - convex loss
     """
     # maintain best experts - closer to 1 the better
     weight_experts = [1 for e in experts]
